@@ -48,7 +48,7 @@ time.sleep(2)
 
 cont = 0
 i = 5
-cont_vet = 3
+cont_vet = 5
 outr_cont = 0
 for i in range (60):
     palavra = palavras[cont_vet][outr_cont]

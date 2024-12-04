@@ -1,17 +1,17 @@
-# Passo a passo do projeto
-# Passo 1: Entrar no sistema da empresa 
-    # https://dlp.hashtagtreinamentos.com/python/intensivao/login
+import pyautogui as pc
+import time as tempo
 
-import pyautogui
-import time
+pc.press("win")
+pc.write("chrome")
+pc.press("enter")
 
-# pyautogui.write -> escrever um texto
-# pyautogui.press -> apertar 1 tecla
-# pyautogui.click -> clicar em algum lugar da tela
-# pyautogui.hotkey -> combinação de teclas
-pyautogui.PAUSE = 0.3
+# entrar no link 
+pc.write("local")
+pc.press("enter")
+tempo.sleep(3)
 
-# abrir o navegador (chrome)
+
+
 pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
